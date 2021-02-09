@@ -41,6 +41,6 @@ let onUpdate (context: UpdateContext) =
         |> Async.Start
     } |> ignore
 
-startBot { defaultConfig with Token = "Здесь должна быть ваша реклама" } onUpdate None
+startBot { defaultConfig with Token = "Здесь могла быть ваша реклама" } onUpdate None
 |> Async.RunSynchronously
 
